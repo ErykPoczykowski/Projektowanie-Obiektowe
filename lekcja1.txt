@@ -1,0 +1,143 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.lang.Math;
+import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+class HelloWorld {
+    public static void main(String[] args) {
+        /*
+        System.out.println("Eryk Poczykowski");
+        String imie = "Eryk Poczykowski";
+        System.out.println(imie.length());
+        
+        String A = "Ala";
+        String B = " ma ";
+        String C = "kota";
+        System.out.println(A+B+C);
+        
+        System.out.println("                    *        ");
+        System.out.println("                    * *      ");
+        System.out.println("                    * * *    ");
+        System.out.println("* * * * * * * * * * * * * *  ");
+        System.out.println("* * * * * * * * * * * * * * *");
+        System.out.println("* * * * * * * * * * * * * *  ");
+        System.out.println("                    * * *    ");
+        System.out.println("                    * *      ");
+        System.out.println("                    *        ");
+        
+        System.out.println("      *      ");
+        System.out.println("     * *     ");
+        System.out.println("    * * *    ");
+        System.out.println("   * * * *   ");
+        System.out.println("  * * * * *  ");
+        System.out.println(" * * * * * * ");
+        System.out.println("  * * * * *  ");
+        System.out.println("   * * * *   ");
+        System.out.println("    * * *    ");
+        System.out.println("     * *     ");
+        System.out.println("      *      ");
+        
+        String D = "Ala ma kota";
+        String E = D.replace("a","e");
+        System.out.println(E);
+
+        String F = "Ala ma kota";
+        String G = F.toUpperCase();
+        String H = F.toLowerCase();
+        System.out.println(G);
+        System.out.println(H);
+        
+        System.out.println("Male litery od 97 do 122");
+        System.out.println("Duze litery od 65 do 90");
+        System.out.println("liczby od 48 do 57");
+        
+        System.out.println("Grzesiek nie wiedzial dlaczego delfin jest tak drapieznym ssakiem, mimo ze jego wyglad na to nie wskazuje");
+        
+        System.out.println("Zbrodnia i Kara to najlepsza ksiazka napisana przez Fiodora Dostojewskiego");
+        
+        String I = "Wodrze";
+        System.out.println(I+I+I+I+I);
+        
+        LocalDateTime myDateObj = LocalDateTime.now();
+        DateTimeFormatter myFormatObj1 = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        DateTimeFormatter myFormatObj2 = DateTimeFormatter.ofPattern("HH:mm:ss");
+        String dzien = myDateObj.format(myFormatObj1);
+        String godzina = myDateObj.format(myFormatObj2);
+        System.out.println("dzisiaj jest " + dzien+ " godzina " + godzina);
+
+        System.out.println((char)54);
+        System.out.println((char)103);
+        System.out.println((char)241);
+        System.out.println((char)67);
+        System.out.println((char)9999);
+        System.out.println((char)174909);
+        
+        zestaw 2
+        zad 1
+    
+        System.out.println(27.0+76); // float
+        System.out.println(41*2.0+3); // float
+        System.out.println(3-55); // int
+        System.out.println(109%3); // int
+        System.out.println(50/2); // int
+        System.out.println(4|2); // int
+        System.out.println(3^5); // int
+        System.out.println(7&9); // int
+        
+        zad 2
+        
+        int J = (int)((Math.sqrt(7) - 1) / 2 + Math.pow(3,3) % 2);
+        int K = (int)(2003/(13*8));
+        int L = (int)((3+Math.sqrt(3))/(Math.sqrt(5)/2)/3+1);
+        int M = (int)(100%21%6);
+        int N = (int)((11%4+1)/(Math.pow(2,(1/4))));
+        System.out.println(J);
+        System.out.println(K);
+        System.out.println(L);
+        System.out.println(M);
+        System.out.println(N);
+        
+        zad 3
+        
+        Scanner reader = new Scanner(System.in);
+        System.out.println("wpisz imie: ");
+        String imie = reader.nextLine();
+        System.out.println("wpisz nazwisko: ");
+        String nazwisko = reader.nextLine();
+        System.out.println(imie + " "+ nazwisko);
+        reader.close();
+        
+        zad 4
+        
+        Scanner reader = new Scanner(System.in);
+        System.out.println("wpisz 1 liczbe: ");
+        double one = reader.nextDouble();
+        System.out.println("wpisz 2 liczbe: ");
+        double two = reader.nextDouble();
+        System.out.println("suma = "+(one+two));
+        System.out.println("roznica = "+(one-two));
+        System.out.println("iloczyn = "+(one*two));
+        System.out.println("iloraz = "+(one/two));
+    
+        zad 5
+        */
+        Scanner reader = new Scanner(System.in);
+        System.out.println("wpisz 1 liczbe: ");
+        int liczba = reader.nextInt();
+        
+        System.out.println(liczba+140);
+        System.out.println(liczba-31);
+        System.out.println(liczba*7);
+        System.out.println((float)liczba/13);
+        
+        System.out.println(liczba%7);
+        System.out.println((liczba/4));
+        System.out.println((float)(Math.pow(liczba,45)));
+        System.out.println(liczba&59);
+        
+        System.out.println(liczba^23);
+        System.out.println(liczba<<5);
+        System.out.println(liczba>>6);
+    
+        reader.close();
